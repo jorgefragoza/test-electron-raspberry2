@@ -5,8 +5,6 @@ const ipc = require('electron').ipcMain
 
 let mainWindow;
 
-console.log(app);
-
 const isSecondInstance = app.makeSingleInstance((commandLine, workingDirectory) => {
 	if (mainWindow) {
 		if(mainWindow.isMinimized()) mainWindow.restore();
@@ -51,4 +49,8 @@ app.on('activate', () => {
 	if (mainWindow === null) {
 		createWindow();
 	}
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 90d9e28f5a5907d4edc110492cd00e71e4ce9572

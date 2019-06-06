@@ -49,8 +49,4 @@ app.on('activate', () => {
 	if (mainWindow === null) {
 		createWindow();
 	}
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> 90d9e28f5a5907d4edc110492cd00e71e4ce9572
